@@ -1,4 +1,3 @@
-# house-price-prediction-model
 # House Price Prediction Model
 
 A machine learning project that predicts house prices using the California Housing dataset and XGBoost regression algorithm.
@@ -55,3 +54,97 @@ The project uses the **California Housing Dataset** from scikit-learn, which con
 ```bash
 git clone https://github.com/1dhanshree/house-price-prediction-model.git
 cd house-price-prediction-model
+```
+
+2. Install required dependencies:
+```bash
+pip install numpy pandas matplotlib seaborn scikit-learn xgboost
+```
+
+Or using requirements.txt (if available):
+```bash
+pip install -r requirements.txt
+```
+
+## 🚀 Usage
+
+1. Open the Jupyter Notebook:
+```bash
+jupyter notebook House_Price_Prediction.ipynb
+```
+
+2. Run all cells sequentially to:
+   - Load and explore the dataset
+   - Perform data preprocessing
+   - Train the XGBoost model
+   - Evaluate model performance
+   - Make predictions
+
+Alternatively, you can open the notebook in Google Colab:
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/1dhanshree/house-price-prediction-model/blob/main/House_Price_Prediction.ipynb)
+
+## 📁 Project Structure
+
+```
+house-price-prediction-model/
+│
+├── House_Price_Prediction.ipynb    # Main Jupyter notebook
+├── README.md                        # Project documentation
+└── requirements.txt                 # Python dependencies (if applicable)
+```
+
+## 🤖 Model Details
+
+**Algorithm**: XGBoost Regressor
+
+XGBoost (eXtreme Gradient Boosting) was chosen for this project because:
+- High predictive accuracy
+- Efficient handling of large datasets
+- Built-in regularization to prevent overfitting
+- Excellent performance on structured/tabular data
+
+### Model Pipeline:
+1. Data Loading
+2. Exploratory Data Analysis
+3. Data Preprocessing
+4. Train-Test Split
+5. Model Training (XGBoost)
+6. Model Evaluation
+7. Predictions
+
+## 📈 Results
+
+*Results section to be updated with model performance metrics such as:*
+- R² Score
+- Mean Absolute Error (MAE)
+- Mean Squared Error (MSE)
+- Root Mean Squared Error (RMSE)
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request. For major changes:
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## 📝 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+## 🙏 Acknowledgments
+
+- California Housing Dataset from scikit-learn
+- Dataset derived from the 1990 U.S. Census
+- Reference: Pace, R. Kelley and Ronald Barry, Sparse Spatial Autoregressions, Statistics and Probability Letters, 33 (1997) 291-297
+
+## 👤 Author
+
+**Dhanshree**
+- GitHub: [@1dhanshree](https://github.com/1dhanshree)
+
+---
+
+⭐ If you found this project helpful, please consider giving it a star!
